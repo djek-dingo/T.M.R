@@ -1,0 +1,306 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+div{
+    box-sizing: border-box;
+}
+.heading {
+    background:url(../img/bg/bg_3.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.container{
+    width: 937;
+    height: auto;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo {
+    /*width: 1920px;*/
+    height: 800px;
+    background: url('../img/bg/main_bg.png') center center/cover no-repeat;
+    padding: 35px 0 52px 0;
+}
+ 
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #0520a7;
+    font-family: "Roboto";
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more .more_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.waiting{
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header , .finish .finish_header{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-align:center;
+}
+.waiting .waiting_divider , .finish .finish_divaider{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.waiting .waiting_subheader{
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400px;
+    text-align:center;
+}
+.waiting .waiting_wrapper .waiting_item{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+
+    width: 339px;
+    text-align: center;
+
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+   display: flex;
+   justify-content: space-between;
+    width: 100%;
+   
+}
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-style: 15px;
+    font-weight: 300px;
+    
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header{
+    margin-left: 39px;
+    color: #299cdd;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.optimization .optimization_header{
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: Roboto;
+    font-style: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.optimization .optimization_text{
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.optimization .optimization_text span{
+    font-family: Roboto - Bold;
+    font-weight: 700;
+
+}
+.optimization .optimization_img{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -170px;
+    z-index: -1;
+}
+.finish{
+    min-height: 447px;
+    padding: 90px 0 79px 0;
+    background: url(../img/bg/ОРОРО.png);
+}
+.finish .finish_header{
+    color: #ffffff;
+}
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content:space-between ;
+}
+    .finish .finish_wrapper .finish_item  {
+        width:204px ;
+        
+    }
+    .finish_rount{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        background-color: #b4e2ff;
+        border-radius: 100%;
+
+    }
+    .finish .finish_wrapper .finish_item .finish_descr{
+        margin-top: 25px;
+        text-align: center;
+        color: #efefef;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 20px;
+
+    }
+
+    .finish2 {
+        padding: 86px 0 116px 0;
+        height: 628px;
+        background-color: #efefef;
+    }
+
+    .finish .present{
+        display: block;
+        margin-left: 526px;
+        margin-right: 503px;
+    }
+
+    .finish .present2{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .finish2 .present_descr{
+        margin-top: 42px;
+        height: 115px;
+        font-family: Roboto;
+        font-size: 30px;
+        line-height: 43px;
+        font-weight: 400;
+        color: #252525;
+    }
+
+    .finish{
+        height: s15px;
+    }
+    .finish3 .finish3_img2{
+        margin-top: 77px;
+        margin-left: 444px;
+    }
+    .finish3_descr3{
+        margin-top: 77px;
+        margin-left: 347px;
+        font-family: Roboto;
+        font-size: 30px;
+        line-height: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #252525;
+
+    }
+    .finish_descr4{
+        margin-top: 30px;
+        margin-left: 283px;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #299cbd;
+    }
+
+    .finish_descr5{
+        margin-left: 295px;
+        margin-top: 25px;
+        font-family: Roboto;
+        font-size: 23px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+
+    .footer{
+        min-height: 166px;
+        background-color: #1a1a1a;
+    }
+
+    .footer_text{
+        padding: 61px 0 69px 0;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: #888;
+        text-align: center;
+    }
+
+    .footer_link{
+        color: #888;
+    }
